@@ -5,7 +5,7 @@
         <h1 class="mb-5">{{ $comic->title}}</h1>
         <div class="mb-5">
             <span class="badge bg-primary">{{ $comic->type}}</span>
-            Prezzo: {{ $comic->price}}
+            Prezzo: {{ $comic->price}} €
         </div>
 
         <div class="row">

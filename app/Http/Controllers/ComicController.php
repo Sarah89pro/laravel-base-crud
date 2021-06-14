@@ -56,7 +56,11 @@ class ComicController extends Controller
         //dettaglio Comics (by ID)
         $comic = Comic::find($id);
 
+        if($comic) {
         return view('comics.show', compact('comic'));
+        }
+
+        abort(404, 'We can\'t seem to find the page you\'re looking for...');
     }
 
     /**
