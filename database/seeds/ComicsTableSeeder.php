@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-use Illuminate\Support\Str;
+use Illuminate\Support\Str; //support for slug
 
 use App\Comic;
 
